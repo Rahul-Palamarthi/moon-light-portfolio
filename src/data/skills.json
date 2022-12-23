@@ -1,0 +1,32 @@
+[
+    {
+        "id": "s1",
+        "percent": "90",
+        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/html.webp"
+    },
+    {
+        "id": "s2",
+        "percent": "95",
+        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/css.webp"
+    },
+    {
+        "id": "s1",
+        "percent": "75",
+        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/js.webp"
+    },
+    {
+        "id": "s1",
+        "percent": "80",
+        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/figma.webp"
+    },
+    {
+        "id": "s1",
+        "percent": "85",
+        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/react.webp"
+    },
+    {
+        "id": "s1",
+        "percent": "85",
+        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/next.webp"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "w1",
+        "heading": "Startup Landing Page",
+        "description": "Sample template made for startups.",
+        "link": "/"
+    },
+    {
+        "id": "w2",
+        "heading": "GPT-3 Open AI Website",
+        "description": "Mobile compatible website made for OpenAI company working on artifical intelligence.",
+        "link": "/"
+    },
+    {
+        "id": "w3",
+        "heading": "Twitter Clone",
+        "description": "It is made to thrive on React.js",
+        "link": "/"
+    },
+    {
+        "id": "w4",
+        "heading": "Instagram Clone",
+        "description": "It is made to thrive on React.js",
+        "link": "/"
+    }
+]
