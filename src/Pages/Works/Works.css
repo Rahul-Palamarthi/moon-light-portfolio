@@ -1,0 +1,19 @@
+.works-card {
+    padding: 1.5em;
+    border: 2px solid var(--helper);
+    margin: 1.5em 0 1.5em 1.5em;
+}
+
+.works-title {
+    padding: 0 0 1.5em;
+}
+
+.works-info {
+    padding: 0 0 1.5em;
+}
+
+.works-link {
+    color: var(--helper);
+    font-weight: bold;
+    padding: 1.5em 0 0;
+}

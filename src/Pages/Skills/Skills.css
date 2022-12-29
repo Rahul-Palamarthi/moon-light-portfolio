@@ -1,0 +1,40 @@
+.skills-card-wrapper {
+    margin: 2em 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+.skills-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.75em;
+}
+
+.skills-meter-wrapper {
+    width: 100%;
+}
+
+meter {
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 25px;
+}
+
+meter::-webkit-meter-bar {
+    background: none;
+    background-color: var(--asset);
+}
+
+meter::-webkit-meter-optimum-value {
+    background: none;
+    background-color: var(--helper);
+}
+
+@media (max-width: 1000px) {
+    .skills-card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

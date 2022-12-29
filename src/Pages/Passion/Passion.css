@@ -1,0 +1,11 @@
+.passion-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+}
+
+@media (max-width: 1000px) {
+    .passion-card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

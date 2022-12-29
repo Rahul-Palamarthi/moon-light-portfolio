@@ -1,0 +1,70 @@
+.contactus-wrapper {
+    padding: 2em 0;
+}
+
+.contactus-wrapper > div {
+    margin-block-start: 2em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+:is(.form-wrapper, .contactus-info) {
+    width: 100%;
+}
+
+form {
+    display: block;
+    width: 100%;
+}
+
+.input {
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-family: inherit;
+    color: inherit;
+    letter-spacing: 0.7px;
+    margin: 1em 2em 3em 0;
+}
+
+body.Dark .input {
+    background-color: #212c527c;
+}
+
+body.Light .input {
+    background-color: #e2ddc1;
+}
+
+.form-btn {
+    font-family: inherit;
+    color: var(--bg);
+    background-color: var(--helper);
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    padding: 0.85em 3.25em;
+    margin-left: auto;
+    border-radius: 4px;
+    display: block;
+    border: 2px solid var(--helper);
+    transition: var(--transition-300);
+}
+
+.form-btn:is(:hover, :focus) {
+    background-color: var(--bg);
+    color: var(--helper);
+    cursor: pointer;
+}
+
+.contactus-info p {
+    padding: 1em 0 3em;
+}
+
+@media (max-width: 1000px) {
+    .contactus-wrapper > div {
+        flex-direction: column;
+    }
+}
