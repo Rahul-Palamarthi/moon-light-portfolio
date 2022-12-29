@@ -1,9 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+@font-face {
+    font-family: "Moniqa";
+    src: url(./assets/fonts/Moniqa-BoldItalicHeading.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
 :root {
     --blue: #100e30;
     --cream: #fffade;
     --violet: #dcd3ff;
     --green: #00b491;
     --poppins: "Poppins";
+    --poppins: "Poppins", sans-serif;
+    --moniqa: "Moniqa";
     --transition-300: 300ms ease;
 }
 
@@ -20,15 +31,16 @@ body {
     background-color: var(--bg);
     color: var(--asset);
     font-family: var(--poppins);
+    transition: var(--transition-300);
 }
 
-body.light {
+body.Light {
     --bg: var(--cream);
     --asset: var(--blue);
     --helper: var(--green);
 }
 
-body.dark {
+body.Dark {
     --bg: var(--blue);
     --asset: var(--cream);
     --helper: var(--violet);
@@ -37,4 +49,37 @@ body.dark {
 .min-width {
     width: min(95%, 1550px);
     margin-inline: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+section {
+    padding: 2em 0;
+}
+
+.h2 {
+    margin: 0 0 0em;
+    font-size: clamp(2.25rem, calc(2rem + 1.25vw), 3.5rem);
+}
+
+.title {
+    margin: 0.5em 0;
+    font-size: clamp(1.5rem, calc(1.36rem + 0.69vw), 2.19rem);
+}
+
+.info {
+    letter-spacing: 0.7px;
+    line-height: 1.7em;
 }
