@@ -2,31 +2,31 @@
     {
         "id": "s1",
         "percent": "90",
-        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/html.webp"
+        "img": "https://raw.githubusercontent.com/Rahul-Palamarthi/moon-light-portfolio/main/src/assets/images/html.webp"
     },
     {
         "id": "s2",
         "percent": "95",
-        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/css.webp"
+        "img": "https://raw.githubusercontent.com/Rahul-Palamarthi/moon-light-portfolio/main/src/assets/images/css.webp"
     },
     {
-        "id": "s1",
+        "id": "s3",
         "percent": "75",
-        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/js.webp"
+        "img": "https://raw.githubusercontent.com/Rahul-Palamarthi/moon-light-portfolio/main/src/assets/images/js.webp"
     },
     {
-        "id": "s1",
+        "id": "s4",
         "percent": "80",
-        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/figma.webp"
+        "img": "https://raw.githubusercontent.com/Rahul-Palamarthi/moon-light-portfolio/main/src/assets/images/figma.webp"
     },
     {
-        "id": "s1",
+        "id": "s5",
         "percent": "85",
-        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/react.webp"
+        "img": "https://raw.githubusercontent.com/Rahul-Palamarthi/moon-light-portfolio/main/src/assets/images/react.webp"
     },
     {
-        "id": "s1",
+        "id": "s6",
         "percent": "85",
-        "img": "https://github.com/Rahul-Palamarthi/moon-light-portfolio/blob/main/src/assets/images/next.webp"
+        "img": "https://raw.githubusercontent.com/Rahul-Palamarthi/moon-light-portfolio/main/src/assets/images/next.webp"
     }
 ]
