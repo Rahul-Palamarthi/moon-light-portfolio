@@ -1,0 +1,21 @@
+.footer-wrapper {
+    text-align: center;
+}
+
+.footer-title {
+    padding: 1em 0;
+    font-size: clamp(1rem, calc(0.9rem + 0.5vw), 1.5rem);
+}
+
+.footer-info {
+    padding: 0 0 1em;
+    font-size: clamp(0.88rem, calc(0.83rem + 0.25vw), 1.13rem);
+}
+
+.social-wrapper img {
+    padding: 1em 1em 2em;
+}
+
+.made-with-love {
+    padding: 1em 0 2em;
+}
